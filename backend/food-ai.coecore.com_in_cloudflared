@@ -1,0 +1,7 @@
+server {
+    listen 8089;
+    server_name localhost;
+    root /var/www/FoodCalssAIWeb/frontend;
+    index index.html index.htm;
+    try_files $uri $uri/ =404;
+}
