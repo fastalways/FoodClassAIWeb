@@ -2,7 +2,7 @@
 After=network.service
 
 [Service]
-ExecStart=/var/www/MedWasteWeb/backend/run_backend_service.sh
+ExecStart=/var/www/FoodClassAIWeb/backend/run_backend_service.sh
 user=coe
 Restart=on-failure
 RestartSec=100

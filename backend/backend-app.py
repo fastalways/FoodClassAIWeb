@@ -80,7 +80,7 @@ def predictClassify_55classes(im_path):
     return sorted_predict_probs
 
 
-@app.route('/class41', methods=['POST'])
+@app.route('/class55', methods=['POST'])
 #@cross_origin(origin='https://medwaste-ai.gezdev.com',headers=['Content-Type','Authorization'])
 #@cross_origin(origin='*')
 def classify41():
