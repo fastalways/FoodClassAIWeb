@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<title>MedicalWasteClassification</title>
+</head>
+<body>
+  
+  <h1 style="background-color:powderblue;color:#f54242;">[MedicalWasteClassification 41CLASSES]</h1>
+  <p>class_names = ['1WayConnectorforFoley', '2WayConnectorforFoley', '2WayFoleyCatheter', '3WayConnectorforFoley', '3Waystopcock', 'AlcoholBottle', 'AlcoholPad', 'BootCover', 'CottonBall', 'CottonSwap', 'Dilator', 'DisposableInfusionSet', 'ExtensionTube', 'FaceShield', 'FrontLoadSyringe', 'GauzePad', 'Glove', 'GuideWire', 'LiquidBottle', 'Mask', 'NGTube', 'NasalCannula', 'Needle', 'OxygenMask', 'PPESuit', 'PharmaceuticalProduct', 'Pill', 'PillBottle', 'PrefilledHumidifier', 'PressureConnectingTube', 'ReusableHumidifier', 'SodiumChlorideBag', 'SterileHumidifierAdapter', 'SurgicalBlade', 'SurgicalCap', 'SurgicalSuit', 'Syringe', 'TrachealTube', 'UrineBag', 'Vaccinebottle', 'WingedInfusionSet']
+  </p>
+  <h3> Drag and drop a medical image into below box</h3>  
+  <div id="image_drop_area_class41"></div>
+  <p id="file_name_class41"></p>
+  <textarea id="result_class41" name="result_class41" rows="10" cols="100"></textarea>
+  
+  <h1 style="background-color:powderblue;color:#f542bc;">[MedicalWasteClassification 4Groups]</h1>
+  <h3> Drag and drop a medical image into below box</h3>  
+  <div id="image_drop_area_class4G"></div>
+  <p id="file_name_class4G"></p>
+  <textarea id="result_class4G" name="result_class4G" rows="10" cols="100"></textarea>
+  
+  <h1 style="background-color:powderblue;color:#6c42f5;">[MedicalWaste Detection 41CLASSES]</h1>
+  <h3> Drag and drop a medical image into below box</h3>  
+  <div id="image_drop_area_yolov4_41"></div>
+  <div id="file_name_yolov4_41"></div>
+  <textarea id="result_yolov4_41" name="result_yolov4_41" rows="10" cols="100"></textarea>
+  <script src="predict_script.js"></script>
+
+</body>
+
+</html>

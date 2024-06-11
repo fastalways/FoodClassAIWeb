@@ -1,0 +1,14 @@
+/backend/venv-web-foodclass
+/backend/venv-backend
+/backend/model/*
+!/backend/model/linux_load_model.sh
+!/backend/model/windows_load_model.ps1
+/backend/im_cache/*
+!/backend/im_cache/.gitkeep
+/backend/static/*
+!/backend/static/.gitkeep
+/backend/__pycache__
+/__pycache__
+/backend/Python-3.8.10
+/backend/Python-3.8.10.tgz
+/backend/venv_backend/*
