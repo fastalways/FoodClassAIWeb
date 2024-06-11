@@ -1,5 +1,5 @@
 // -------------- Class 41 -----------------
-const image_drop_area_class41 = document.querySelector("#image_drop_area_class55");
+const image_drop_area_class55 = document.querySelector("#image_drop_area_class55");
 var uploaded_image_class55;
 
 // Event listener for dragging the image over the div
