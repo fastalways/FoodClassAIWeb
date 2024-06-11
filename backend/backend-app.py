@@ -70,7 +70,7 @@ def hash_str(str):
 
 
 def predictClassify_55classes(im_path):
-    img = image.load_img(im_path, target_size=(456, 456)) # B5 -> img_height_width=456
+    img = image.load_img(im_path, target_size=(380, 380)) # B5 -> img_height_width=456
     img_array = image.img_to_array(img)
     img_batch = np.expand_dims(img_array, axis=0)
     img_preprocessed = preprocess_input(img_batch)
@@ -84,7 +84,7 @@ def predictClassify_55classes(im_path):
 @app.route('/class55', methods=['POST'])
 #@cross_origin(origin='https://medwaste-ai.gezdev.com',headers=['Content-Type','Authorization'])
 #@cross_origin(origin='*')
-def classify41():
+def classify55():
     im_path = ''
     if 'file' not in request.files:
         resp = jsonify({'message': 'No file part in the request'})
@@ -125,4 +125,4 @@ def classify41():
         return resp
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=5001,debug=True)
+    app.run(host="0.0.0.0",port=5001,debug=False)
